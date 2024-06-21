@@ -125,13 +125,14 @@ body{
 .back{
     background-color:#364759 ;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
 }
 .footer img{
     width: 220px;
     height: 60px px;
     padding: 20px;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 .footer{
     text-align: center;
