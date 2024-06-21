@@ -62,8 +62,8 @@ const cars = [
   },
 ]
 
-for (let i =0 ; i < cars.length; i ++){
-  cars[i].licensePlate= 'GG312SD';
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = 'GG312SD';
 }
 
 console.log(cars);
@@ -83,7 +83,7 @@ cars.push(object);
 
 console.log(cars);
 
-for (let i =0 ; i < cars.length; i ++){
+for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
 }
 
@@ -94,8 +94,8 @@ console.log(cars);
 */
 const justTrims = []
 
-for (let i =0 ; i < cars.length; i ++) {
- justTrims.push(cars[i].trims.slice(0,1));
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims.slice(0, 1));
 };
 
 
@@ -106,12 +106,12 @@ console.log(justTrims);
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
-for (let i =0 ; i < cars.length; i ++){
-   if (cars[i].color.charAt(0) === 'b'){
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color.charAt(0) === 'b') {
     console.log('Fizz')
-   } else {
+  } else {
     console.log('Buzz')
-   }
+  }
 }
 
 /* ESERCIZIO 9
@@ -133,4 +133,77 @@ while (numericArray[i] !== 32) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const charactersArray = ['g', 'n', 'u', 'z', 'd'];
+const newArray = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case 'a':
+      newArray.push(1);
+      break;
+    case 'b':
+      newArray.push(2);
+      break;
+    case 'c':
+      newArray.push(3);
+      break;
+    case 'd':
+      newArray.push(4);
+      break;
+    case 'e':
+      newArray.push(5);
+      break;
+    case 'f':
+      newArray.push(6);
+      break;
+    case 'g':
+      newArray.push(7);
+      break;
+    case 'h':
+      newArray.push(8);
+      break;
+    case 'i':
+      newArray.push(9);
+      break;
+    case 'l':
+      newArray.push(10);
+      break;
+    case 'm':
+      newArray.push(11);
+      break;
+    case 'n':
+      newArray.push(12);
+      break;
+    case 'o':
+      newArray.push(13);
+      break;
+    case 'p':
+      newArray.push(14);
+      break;
+    case 'q':
+      newArray.push(15);
+      break;
+    case 'r':
+      newArray.push(16);
+      break;
+    case 's':
+      newArray.push(17);
+      break;
+    case 't':
+      newArray.push(18);
+      break;
+    case 'u':
+      newArray.push(19);
+      break;
+    case 'v':
+      newArray.push(20);
+      break;
+    case 'z':
+      newArray.push(21);
+      break;
+    default:
+      newArray.push(null);
+  }
+}
+
+console.log(newArray);
