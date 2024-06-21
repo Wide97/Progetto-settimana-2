@@ -117,3 +117,23 @@ body{
 .accessori {
     margin-bottom: 50px;
 }
+.back a{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.back{
+    background-color:#364759 ;
+    text-align: center;
+    padding: 30px;
+}
+.footer img{
+    width: 220px;
+    height: 60px px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.footer{
+    text-align: center;
+    background-color:#222F3F ;
+}
